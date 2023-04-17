@@ -1,0 +1,18 @@
+﻿<Window x:Class="ekzamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ekzamen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <TextBox x:Name="imyaBox" Width="120" Height="30" Margin="70,144,602,395" TextChanged="imya_TextChanged"></TextBox>
+        <TextBlock x:Name="imyaBlock" Width="100" Height="25" Margin="248,144,444,400"></TextBlock>
+        <TextBox x:Name="familiyaBox" Width="120" Height="30" Margin="70,252,602,287" TextChanged="familiyaBox_TextChanged"></TextBox>
+        <TextBlock x:Name="familiyaBlock" Width="100" Height="25" Margin="248,257,444,287"></TextBlock>
+        <TextBox x:Name="nomer_telBox" Width="120" Height="30" Margin="70,367,602,172">
+        </TextBox>
+
+    </Grid>
+</Window>
